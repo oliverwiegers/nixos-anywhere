@@ -284,7 +284,6 @@ parseArgs() {
       value=$2
       shift
       sshStoreSettings+="&$key=$value"
-      shift
       ;;
     --post-kexec-ssh-port)
       postKexecSshPort=$2
